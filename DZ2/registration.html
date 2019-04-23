@@ -18,15 +18,13 @@
   </ul>
 </nav>
 <form>
-  <p><strong>Для входа введите данные:</strong></p>
-  <label>Ваш email:<input  type="email"/></label></br></br>
-  <label>Ваш пароль:<input  type="password"/></label></br></br>
-  <input type="submit" value="Войти"></input>
-  <p>или заполните данные для <a href="registration.html">регистрации</a></p>
+  <p><strong>Для регистрации введите указанные данные:</strong></p>
+  <label>Ваш email:<input type="email" required/></label></br></br>
+  <label>Ваш пароль:<input type="password" required minlength="3" maxlength="9"/></label></br></br>
+  <label>Подтверждение пароля:<input type="password" required minlength="3" maxlength="9"/></label></br></br>
+  <input type="file"/></br></br>
+  <input type="submit" value="Зарегистрироваться"></input>
+  <p>если вы зарегистрированы перейдите по <a href="index.html">ссылке</a> для авторизации</p>
 </form>
-
-
-
-
 </body>
 </html>
