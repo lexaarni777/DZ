@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-image: url(../img/head.jpg);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: center;
+  background-attachment: fixed;
+}
+.conteiner{
+  width: 980px;
+  margin: 0 auto;
+}
+.menu {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.menu li{
+  display: inline-block;
+  margin: 10px 30px;
+  background-color: white;
+  height: 25px;
+  width: 70px;
+  text-align: center;
+  padding-top: 5px;
+}
+form{
+  background-color: white;
+  width: 400px;
+}
+h2{
+  margin-top: 0;
+}
+.publication{
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid red;
+}
+.link{
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  background-color: red;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
